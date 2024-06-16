@@ -1,0 +1,30 @@
+.wrap h1 {
+  margin-bottom: 20px;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.form-table th, .form-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.form-table th {
+  width: 20%;
+}
+.form-table td {
+  width: 80%;
+}
+
+.button-primary {
+  background-color: #0073aa;
+  border-color: #0073aa;
+  color: #fff;
+  text-decoration: none;
+}
+.button-primary:hover {
+  background-color: #006799;
+  border-color: #006799;
+  color: #fff;
+}
