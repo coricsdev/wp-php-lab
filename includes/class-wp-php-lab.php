@@ -8,6 +8,14 @@ class WP_PHP_Lab {
         add_action('admin_enqueue_scripts', [$this, 'enqueue_styles']);
     }
 
+    public function __construct() {
+        $this->includes();
+    }
+
+    private function includes() {
+        require_once plugin_dir_path(__FILE__) . 'class-wp-php-lab-settings.php';
+    }
+
     public function add_plugin_menu() {
         add_menu_page(
             __('WP PHP Lab', 'wp-php-lab'),

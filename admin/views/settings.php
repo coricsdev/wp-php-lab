@@ -1,4 +1,6 @@
 <?php
+require_once plugin_dir_path(__FILE__) . '../../includes/class-wp-php-lab-settings.php';
+
 use WP_PHP_Lab\WP_PHP_Lab_Settings;
 
 $settings = new WP_PHP_Lab_Settings();
